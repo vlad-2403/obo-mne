@@ -1,0 +1,109 @@
+@media(max-width: 1200px){
+   .container {
+    max-width: 960px;
+   }
+
+
+   .about__content {
+    flex-direction: column;
+   }
+
+
+   .about__ava {
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 40px;
+   }
+
+
+   .cards__content {
+    justify-content: space-evenly;
+   }
+
+   .footer__list {
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+}
+
+
+@media(max-width: 992px){
+    .container {
+     max-width: 720px;
+    }
+
+
+    .nav .container {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .banner {
+        height: 90vh;
+        row-gap: 60px;
+    }
+
+
+    .about {
+        padding: 30px 0;
+    }
+
+
+    .about__title {
+        margin-bottom: 30px;
+    }
+
+
+    .about__text-title {
+        margin-bottom: 30px;
+    }
+}
+
+
+@media(max-width: 768px){
+    .container {
+     max-width: 540px;
+    }
+
+
+    .header__list {
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 20px;
+    }
+
+    .banner {
+        height: 80vh;
+    }
+
+
+    .banner__title {
+        font-size: 35px;
+        text-align: center;
+    }
+
+
+    .cards__title {
+        margin-bottom: 30px;
+    }
+
+
+    .cards__img {
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 576px){
+    .container {
+     max-width: auto;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+
+    .footer__title {
+        font-size: 30px;
+    }
+}
